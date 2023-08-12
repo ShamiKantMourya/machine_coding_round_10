@@ -1,20 +1,21 @@
-.navbar{
-    display: flex;
-    height: 100vh;
-    width: 100%;
-    background-color: rgb(22, 22, 22);
-    flex-direction: column;
+.navbar {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(22, 22, 22);
+  flex-direction: column;
 }
-.navbar a{
-    display: flex;
-    margin: 10px 5px;
-    color: rgb(221, 221, 221);
-    text-decoration: none;
-    font-size: 25px;
-    font-weight: 500;
-    opacity: 0.5;
-    padding: 5px 5px;
+
+.navbar a {
+  display: flex;
+  margin: 10px 5px;
+  color: rgb(221, 221, 221);
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 500;
+  opacity: 0.5;
+  padding: 5px 5px;
 }
-.navbar a:hover{
-    opacity: 0.8;
+.navbar a:hover {
+  opacity: 0.8;
 }

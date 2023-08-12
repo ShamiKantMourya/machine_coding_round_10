@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 2rem 1fr 3fr 2rem;
 }
+
 .department-side {
   grid-column: 3/4;
   display: flex;

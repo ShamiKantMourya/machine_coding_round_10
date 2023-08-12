@@ -12,9 +12,11 @@ const Department = () => {
         <NavBar />
       </div>
       <div className="department-side">
-      <Link to= "/products"><p className="department-text">Kitchen</p></Link> 
-      <p className="department-text">Clothing</p>
-       <p className="department-text">Toys</p>
+        <Link to="/products">
+          <p className="department-text">Kitchen</p>
+        </Link>
+        <p className="department-text">Clothing</p>
+        <p className="department-text">Toys</p>
       </div>
     </div>
   );

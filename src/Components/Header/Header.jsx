@@ -28,7 +28,7 @@ const Header = () => {
         </select>
       </div>
       <div className="create-product">
-        <button>New</button>
+        <button className="create-product-btn">New</button>
       </div>
     </div>
   );

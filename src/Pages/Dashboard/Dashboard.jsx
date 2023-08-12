@@ -5,6 +5,7 @@ import { inventoryData } from "../../Data/DataBase";
 import "./Dashboard.css";
 
 const Dashboard = () => {
+  
   const lowStock = inventoryData.filter((item) => item.stock <= 10);
 
   return (

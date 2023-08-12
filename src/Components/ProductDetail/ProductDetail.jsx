@@ -10,6 +10,7 @@ const ProductDetail = () => {
   const filterProduct = inventoryData?.find(
     (product) => product.id === Number(id)
   );
+  
   const {
     name,
     imageUrl,
