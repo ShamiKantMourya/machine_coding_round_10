@@ -15,8 +15,12 @@ const Department = () => {
         <Link to="/products">
           <p className="department-text">Kitchen</p>
         </Link>
-        <p className="department-text">Clothing</p>
-        <p className="department-text">Toys</p>
+        <Link to="/products">
+          <p className="department-text">Clothing</p>
+        </Link>
+        <Link to="/products">
+          <p className="department-text">Toys</p>
+        </Link>
       </div>
     </div>
   );

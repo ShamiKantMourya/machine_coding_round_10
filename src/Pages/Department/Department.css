@@ -23,3 +23,6 @@
   border-radius: 5px;
   cursor: pointer;
 }
+.department-side a{
+  text-decoration: none;
+}
