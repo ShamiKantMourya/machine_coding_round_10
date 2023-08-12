@@ -1,0 +1,58 @@
+.product-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  height: 4rem;
+  width: 100%;
+  margin-top: 20px;
+  border-bottom: 1px solid red;
+  align-items: center;
+}
+.header-text h3 {
+  display: flex;
+  color: red;
+  font-size: 25px;
+}
+.select-field select {
+  background-color: white;
+  display: flex;
+  color: red;
+  height: 1.5rem;
+  padding: 2px 2px;
+  border-radius: 5px;
+}
+.low-stock-field {
+  display: flex;
+}
+.low-stock-field p {
+  color: red;
+  font-size: 15px;
+  padding: 0px 5px;
+}
+.sort-by-name select {
+  background-color: white;
+  display: flex;
+  color: red;
+  height: 1.5rem;
+  padding: 2px 5px;
+  width: 5rem;
+  border-radius: 5px;
+}
+.create-product {
+  display: flex;
+  justify-content: center;
+  height: 2rem;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  width: 3rem;
+  padding: 2px 2px;
+}
+.create-product button {
+  color: red;
+  background-color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+}
